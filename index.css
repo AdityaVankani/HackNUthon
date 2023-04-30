@@ -1,0 +1,93 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+}
+#output {
+    width: 500px;
+    color:rgb(49, 154, 164)
+}
+#img {
+    height: 500px;
+    width: 500px;
+    border-radius: 10px;
+}
+#sel_img {
+    font-size: 20px;
+    width: 95px;
+    padding: 20px 0px;
+}
+body {
+    background-image: url("https://wallpaper-house.com/data/out/10/wallpaper2you_418294.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    gap: 20px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+}
+.classified {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.search {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+button {
+    border-radius: 20px;
+    border: 1px solid black;
+}
+.search button {
+    height: 40px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: 600;
+}
+button:hover {
+    background-color: black;
+    color: white;
+    transition: 0.2s ease-in-out;
+}
+.classified span {
+    font-size: 20px;
+}
+.skip {
+    font-size: 21px;
+    width: 70px;
+    margin-left: 20px;
+}
+#result {
+    width: 145px;
+    color: rgb(49, 154, 164);
+}
+.container {
+    background: rgba(255, 255, 255, 0.42);
+    border-radius: 16px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+}
+.Confidence {
+    width: 100%;
+    display: flex;
+}
+.Confidence p {
+    padding-right: 10px;
+    font-size: 20px;
+}
+.Confidence h3 {
+    color: rgb(49, 154, 164);
+}
